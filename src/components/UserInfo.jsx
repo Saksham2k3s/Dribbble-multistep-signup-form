@@ -119,7 +119,7 @@ function UserInfo() {
           </div>
           <div className="flex items-center justify-center">
             <div className="login-signup-form  justify-center   w-full px-5 md:w-3/4  lg:w-1/2">
-              <div className="text-black w-full text-xl md:text-3xl font-bold mt-10 text-start">
+              <div className="text-black w-full text-xl md:text-3xl font-bold mt-5 lg:mt-10 text-start">
                 {!login ? "Sign up to Dribbble" : "Sign In to Dribbble"}
               </div>
               <div className="text-start">
@@ -133,7 +133,7 @@ function UserInfo() {
               </div>
               {!login ? (
                 <form onSubmit={handleSubmit}>
-                  <div className="flex flex-col md:flex-row md:gap-10 mt-5 lg:mt-2">
+                  <div className="flex flex-col md:flex-row md:gap-10 mt-2  lg:mt-2">
                     <InputField
                       label="Name"
                       name="name"

@@ -31,9 +31,9 @@ function ChooseRole() {
   };
 
   return (
-    <div className="w-screen min-h-screen pt-10">
+    <div className="w-screen min-h-screen py-10">
       <div className="px-15">
-        <div className=" lg:ml-20 font-poppins text-[#ea4b8b]">
+        <div className=" lg:ml-20 font-poppins text-[#ea4b8b] px-7  lg:px-0">
           <img
             src={dribbble_image}
             alt="dribbble_logo"
@@ -45,10 +45,10 @@ function ChooseRole() {
       <div className="flex flex-col items-center justify-center">
         <div className="w-full md:w-1/2 px-5">
           <div className="text-center lg:px-5 md:px-5">
-            <h1 className="font-bold text-2xl md:text-2xl lg:text-4xl">
+            <h1 className="font-bold mt-5 lg:mt-0 text-2xl md:text-2xl lg:text-4xl">
               What brings you to Dribbble
             </h1>
-            <p className="mt-3 md:mt-4 lg:mt-5 text-sm md:text-md lg:text-lg text-gray-500">
+            <p className="mt-3  md:mt-4 lg:mt-5 text-sm md:text-md lg:text-lg text-gray-500">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
           </div>

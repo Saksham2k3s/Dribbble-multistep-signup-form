@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTriangleExclamation } from "@fortawesome/free-solid-svg-icons";
 function InputField({ label, type, name, value, onChange, error }) {
   return (
-    <div className="mt-10">
+    <div className="mt-3 lg:mt-10">
       <div className="text-start">
         <label htmlFor={name}>{error ?  <FontAwesomeIcon icon={faTriangleExclamation} size='xl' className=" text-red-500" /> : ''} {label}</label>
         <br />

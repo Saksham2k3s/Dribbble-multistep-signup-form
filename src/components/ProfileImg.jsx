@@ -26,14 +26,14 @@ function ProfileImg() {
   };
 
   return (
-    <div className='w-screen min-h-screen pt-10'>
+    <div className='w-screen min-h-screen py-10 px-5'>
       <div className='px-15'>
-        <div className='lg:ml-20 font-poppins text-[#ea4b8b]'>
+        <div className='lg:ml-20  font-poppins text-[#ea4b8b]'>
           <img src={dribbble_image} alt='dribbble_logo' className='w-24 h-15' />
         </div>
       </div>
       <div className='flex items-center justify-center'>
-        <div className='w-full md:w-1/2 px-5'>
+        <div className='w-full md:w-1/2 mt-3'>
           <div className='text-start lg:px-5 md:px-5'>
             <h1 className='font-bold text-2xl md:text-2xl lg:text-4xl'>Welcome, let's create your profile</h1>
             <p className='mt-3 md:mt-4 lg:mt-5 text-sm md:text-md lg:text-lg text-gray-500'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -71,7 +71,7 @@ function ProfileImg() {
               </div>
             </div>
           </div>
-          <div className='mt-20 w-full px-5 md:px-5 lg:px-0'>
+          <div className='mt-12 lg:mt-20 w-full px-5 md:px-5 lg:px-0'>
             <div className='font-bold text-lg md:text-2xl'>Add your Location</div>
             <div className='border-0 border-b-2 border-gray-400 py-4'>
               <input
@@ -83,8 +83,8 @@ function ProfileImg() {
               />
             </div>
           </div>
-          <div className='text-start sm:px-5 md:px-5 lg:px-0'>
-            <button onClick={handleNext} className='mt-10 bg-[#ea4b8b] rounded-lg px-8 py-3 text-white font-bold w-full md:w-1/2 xl:w-1/3'>Next</button>
+          <div className='text-center lg:text-start sm:px-5 md:px-5 lg:px-0'>
+            <button onClick={handleNext} className='mt-10 bg-[#ea4b8b] rounded-lg px-8 py-3 text-white font-bold w-1/2 md:w-1/2 xl:w-1/3'>Next</button>
           </div>
         </div>
       </div>
