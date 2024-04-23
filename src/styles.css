@@ -2,3 +2,15 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap');
+
+body {
+    overflow-x: hidden; 
+    overflow-y: auto; 
+  }
+
+  .dribbble-font{
+    font-family: "Clicker Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  }
