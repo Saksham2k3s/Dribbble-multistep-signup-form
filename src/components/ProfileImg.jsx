@@ -10,8 +10,8 @@ function ProfileImg() {
   const user = useSelector((state) => state.user);
   const dispatch = useDispatch();
   const navigate = useNavigate();
-  const [image, setImage] = useState('');
-  const [location, setLocation] = useState('');
+  const [image, setImage] = useState(user.userInfo.avatar);
+  const [location, setLocation] = useState(user.userInfo.location);
 
   const handleImageChange = (e) => {
     const selectedImage = e.target.files[0];

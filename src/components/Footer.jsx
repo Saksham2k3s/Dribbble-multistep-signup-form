@@ -28,7 +28,7 @@ function Footer() {
       <div className="flex flex-col items-center lg:items-start">
         <img src={DribbleLogo} alt="Dribbble Logo" className="w-24" />
         <p className="mt-4 lg:mt-8 text-center lg:text-left">
-          Dribbble is the world's leading community to share, grow, and get hired
+          Dribbble is the world's leading community to share, grow, and get hired.
         </p>
         <div className="flex gap-3 mt-5">
           <FontAwesomeIcon icon={faDribbble} />

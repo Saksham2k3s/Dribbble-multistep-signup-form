@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Logo from "../Images/logo.png";
 import { useDispatch, useSelector } from "react-redux";
 import { singUp_Info } from "../redux/userSlice";
 import { Link, useNavigate } from "react-router-dom";
@@ -7,6 +6,7 @@ import InputField from "./InputField";
 import HeroImage from "../Images/Curriculum Design.png";
 import dribbbleImg from "../Images/dribbble.png";
 import { UsernameAndEmail } from "../utils/PrevUserName&Email";
+import  dribbbleLogo  from '../Images/dribbble-logo-yellow.png'
 
 function UserInfo() {
   const navigate = useNavigate();
@@ -83,13 +83,13 @@ function UserInfo() {
       <div className="w-1/3 bg-[#f2d184] hidden md:block px-10">
         <div className="w-1/2 dribbble-font">
           <img
-            className="w-full h-[100] cursor-pointer"
-            src={Logo}
+            className="w-36 mt-10 h-[100] cursor-pointer"
+            src={dribbbleLogo}
             alt="logo"
           />
         </div>
         <div>
-          <h1 className="text-[#815e12] font-bold text-sm lg:text-xl xl:text-2xl 2xl:text-3xl">
+          <h1 className="text-[#815e12] font-bold text-sm lg:text-xl xl:text-2xl 2xl:text-3xl mt-10">
             Discover the world's top Designers and Creatives.
           </h1>
         </div>
