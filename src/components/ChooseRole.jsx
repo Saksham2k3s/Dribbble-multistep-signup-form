@@ -31,7 +31,7 @@ function ChooseRole() {
   };
 
   return (
-    <div className="w-screen min-h-screen py-10">
+    <div className="w-screen min-h-screen py-10 px-5">
       <div className="px-15">
         <div className=" lg:ml-20 font-poppins text-[#ea4b8b] px-7  lg:px-0">
           <img
@@ -43,7 +43,7 @@ function ChooseRole() {
       </div>
 
       <div className="flex flex-col items-center justify-center">
-        <div className="w-full md:w-1/2 px-5">
+        <div className="w-full md:w-1/2 ">
           <div className="text-center lg:px-5 md:px-5">
             <h1 className="font-bold mt-5 lg:mt-0 text-2xl md:text-2xl lg:text-4xl">
               What brings you to Dribbble
