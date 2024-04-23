@@ -24,7 +24,7 @@ function EmailVerify() {
               <p className="mt-3 md:mt-4 lg:mt-5 text-base md:text-lg lg:text-xl text-gray-500">
                 Please verify your email address. We have sent a confirmation email to:
               </p>
-              <h5 className="text-black text-2xl lg:text-3xl mt-3 font-bold">
+              <h5 className="text-black text-xl lg:text-xl mt-3 font-bold">
                 {user.email.email_address}
               </h5>
               <p className="mt-3 md:mt-4 lg:mt-5 text-base md:text-lg lg:text-xl text-gray-500">
